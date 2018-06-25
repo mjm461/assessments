@@ -32,11 +32,11 @@ python -m assessment.ml.predict --parcel 0000-K-00000-0000-00  --assessments ass
 
 1.  Zillow estimate of a home as grade changes
 
-![alt text](../../images/ml/zestimate_grading.png)
+![Zillow Grade](../../images/ml/zestimate_grading.png)
 
 2.  Assessed value of a home as grade changes
 
-![alt text](../../images/ml/assess_grading.png)
+![Assessed Grade](../../images/ml/assess_grading.png)
 
 #### [assessment/ml/plotdata.py](plotdata.py)
 Various plots of the assessments
@@ -47,21 +47,21 @@ python -m assessment.ml.plotdata --parcel 0000-K-00000-0000-00  --assessments as
 
 1. Lot area vs Land Value
 
-![alt text](../../images/ml/lotarea.png)
+![Lot Area](../../images/ml/lotarea.png)
 
 2. Living area vs assessed value
 
-![alt text](../../images/ml/livingarea.png)
+![Living Area](../../images/ml/livingarea.png)
 
 3. Assessed value vs number of bedrooms
 
-![alt text](../../images/ml/bedroom.png)
+![Bedrooms](../../images/ml/bedroom.png)
 
 4. Assessed value vs number of bathrooms
 
-![alt text](../../images/ml/bath.png)
+![Bathrooms](../../images/ml/bath.png)
 
 5. Assessed value vs number of bedrooms of the compared parcel
 
-![alt text](../../images/ml/bedroom_assess.png)
+![Parcels with N Bedrooms](../../images/ml/bedroom_assess.png)
 
