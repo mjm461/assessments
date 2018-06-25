@@ -6,6 +6,7 @@ Website:  http://www2.county.allegheny.pa.us/RealEstate/Search.aspx
 #### Build/install
 
 ```bash
+pip install -r requirements.txt
 python setup.py install
 ```
 

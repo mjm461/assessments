@@ -56,8 +56,7 @@ if __name__ == '__main__':
             'GradientBoosting': gb
         })
 
-        ax = None
-        ax = results.plot(x='Grade', y='LinearRegression', color='red', ax=ax)
+        ax = results.plot(x='Grade', y='LinearRegression', color='red')
         ax = results.plot(x='Grade', y='GradientBoosting', color='blue', ax=ax)
         ax.grid('on', which='major')
         ax.set_xticklabels([x[0] for x in sorted_x])

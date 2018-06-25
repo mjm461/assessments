@@ -40,7 +40,7 @@ if __name__ == '__main__':
     ax = None
     match = df.loc[df['Bedroom'] == parcel['Bedroom'].values[0] ]
     match = match.loc[ match['Full Bath'] == parcel['Full Bath'].values[0] ]
-    ax = match.plot(kind='scatter', x='Bedroom', y='County Total', color='blue', ax=ax)
+    ax = match.plot(kind='scatter', x='Bedroom', y='County Total', color='blue')
     ax = parcel.plot(kind='scatter', x='Bedroom', y='County Total', color='yellow', ax=ax)
 
     plt.show()
