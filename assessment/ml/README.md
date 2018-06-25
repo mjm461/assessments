@@ -5,7 +5,8 @@ dependencies are used:
 - pandas
 - sklearn
 
-#### comps.py
+#### [assessment/ml/comps.py](comps.py)
+
 Compare values of comps and cost/sqft
 
 ```bash
@@ -16,12 +17,12 @@ Area County $ Total/sqft: 108.18642113764068
 Parcel assessment vs the assessments of its comps: 19025.0
 Parcel County $ Total/sqft: 106.62885501595179
 ```
-Example:
+Example (from above):
 - The average parcel value in assessments.csv is approx $5007 greater than its comps
 - The average cost/sqft for assessments.csv is $108/sqft
-- Optionally, compare a single parcel $19025 greater than its comps and $106/sqft
+- *Optionally* with --parcel:  compare a single parcel.  The example above is $19025 greater than its comps and $106/sqft
 
-#### predict.py
+#### [assessment/ml/predict.py](predict.py)
 
 Predict a home's value with respect to its grading
 
@@ -37,7 +38,7 @@ python -m assessment.ml.predict --parcel 0000-K-00000-0000-00  --assessments ass
 
 ![alt text](../../images/ml/assess_grading.png)
 
-#### plotdata.py
+#### [assessment/ml/plotdata.py](plotdata.py)
 Various plots of the assessments
 
 ```bash
