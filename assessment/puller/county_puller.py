@@ -69,9 +69,9 @@ class CountyPuller(Puller, metaclass=abc.ABCMeta):
         except:
             print(parsel_id)
         if not os.path.exists(data):
-            html = requests.get(self._url(parsel_id))
+            html = requests.get(self._url(parsel_id)).text
             with open(data, 'w') as fout:
-                fout.write(html.text)
+                fout.write(html)
         else:
             html = open(data, 'r').read()
 
